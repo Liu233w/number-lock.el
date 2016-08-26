@@ -1,5 +1,5 @@
 # number-lock.el
-An emacs package to exchange your number line with the mark above it.
+An Emacs package to exchange your number line with the mark above it.
 
 For example, when you press `1`, `!` will be entered.
 If `!` was binding to function other than `self-insert-command`, it will be
