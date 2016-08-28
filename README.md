@@ -14,14 +14,7 @@ in minibuffer.
 
 ## Installation
 Add `number-lock.el` to your load-path and then `(require 'number-lock)`.
-If you use spacemacs, just add following codes into your configuration layer's variable
-<layer>-packages:
-``` emacs-lisp
-(number-lock
- :location (recipe
-            :repo "Liu233w/number-lock.el"
-            :fetcher github))
-```
+Or just install it by melpa via `M-x package-install RET number-lock RET`.
 
 ## Usage
 It will become one of your input method. Use `M-x set-input-method` to change to it
@@ -34,3 +27,7 @@ If you don't use other input methods, just put the code below into your config f
 
 If you use other input method, you can switch between it and number-lock by function
 `number-lock-toggle-number-lock`.
+
+## Alternative
+[evil-swap-keys](https://github.com/wbolster/evil-swap-keys) use `key-translation-map` 
+to swap keys. It support other key translations like `/?` `[{` and can be easily customized.
