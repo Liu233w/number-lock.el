@@ -36,6 +36,14 @@
 
 (require 'quail)
 
+;;;###autoload
+(register-input-method
+ "number-lock" "English"
+ 'quail-use-package "&"
+ "Pressing `1' will work like pressing `!'.
+Press `S+1' instead to get `1' etc."
+ "number-lock")
+
 (quail-define-package
  "number-lock" "English" "&" t
  "Pressing `1' will work like pressing `!'.
