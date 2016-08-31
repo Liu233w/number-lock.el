@@ -1,4 +1,6 @@
 # number-lock.el
+[![MELPA](https://melpa.org/packages/number-lock-badge.svg)](https://melpa.org/#/number-lock)
+
 An Emacs package to exchange your number line with the mark above it.
 
 For example, when you press `1`, `!` will be entered.
